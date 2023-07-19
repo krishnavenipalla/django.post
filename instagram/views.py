@@ -9,7 +9,7 @@ def index(request):
 
     post = Post.objects.all()
 
-    print(post)
+    # print(post)
 
     return render(request, 'index.html',context={'posts':post})
 def about(request):
